@@ -18,8 +18,8 @@
  * **💥 Problem**</br>
     항적 경로 예측에 필수적인 항적 경로 데이터는 2급 비밀로 반출 불가
  * **✨ Solution**</br>
-    데이터를 불가피하게 임의로 생성해야 했지만 가능한 신빙성있게 데이터를 생성하고 싶었습니다.
-    그래서 저희는 아래와 같이 KADIZ 침입관련 기사들 중 국방부와 합동참모본부 보도자료를 바탕으로 KADIZ 침입 항적 경로를 시각화한 자료들을 참고했습니다.
+    데이터를 불가피하게 임의로 생성해야 했지만 가능한 신빙성있게 데이터를 생성하고 싶었습니다.</br>
+    그래서 저희는 아래와 같이 KADIZ 침입관련 기사들 중 국방부와 합동참모본부 보도자료를 바탕으로 KADIZ 침입 항적 경로를 시각화한 자료들을 참고했습니다.</br>
     여러 자료들을 조사하던 중 저희는 대개 중국기의 경우 이어도 부근에서 북상하여 동해상으로 타원 궤적을 그리며 침입한다는 사실을 발견했습니다.
     <p align="center">
         <img width="419" alt="route" src="https://user-images.githubusercontent.com/42788336/197400385-ed5f8d0a-b746-4e7c-a0b6-54b27f72700e.png">
@@ -36,17 +36,8 @@ Ax^2+By^2+Cx+Dy+Exy+F = 0
     이때 loss funtion은 MSE, optimizer는 Adam을 사용했습니다.
 
  ### 6. Results
-<div style="display:flex; justify-content:center; align-items:center;">
-    <figure>
-        <img src="https://user-images.githubusercontent.com/42788336/197400292-a61a6b9f-103a-464c-b6c1-2a62a221bea3.gif"/>
-        <figcaption>
-            <span style="color:blue; font-weight:bold; margin-left:30px; margin-right:20px;">파란색: 실제 항적 경로</span>
-            &nbsp;
-            <span style="color:orange; font-weight:bold;
-            margin-left:30px"> 주황색: 예측한 항적 경로</span>
-        </figcaption>
-    </figure>
-</div>
+ ![animation](https://user-images.githubusercontent.com/42788336/197400667-9e9605f1-a56a-4836-b17f-24f73e055317.gif)
+<span style="color:blue; font-weight:bold;">파란색: 실제 항적 경로</span>&emsp;&emsp;<span style="color:orange; font-weight:bold;">주황색: 예측한 항적 경로</span>
 
  ### 7. References 📚
  [Liu, Yulin, and Mark Hansen. "Predicting aircraft trajectories: a deep generative convolutional recurrent neural networks approach." arXiv preprint arXiv:1812.11670 (2018).](https://arxiv.org/abs/1812.11670)
@@ -55,9 +46,9 @@ Ax^2+By^2+Cx+Dy+Exy+F = 0
 
 ## 3. 팀원 구성 및 역할
 
-* [![Seokjin Kim](https://img.shields.io/badge/-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%20Seokjin%20Kim-blue)](https://github.com/SukJinKim)
+* [![Seokjin Kim](https://img.shields.io/badge/-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%20Seokjin%20Kim-blue)](https://github.com/SukJinKim)</br>
     프로젝트 총괄, 데이터 생성 구현, 애니메이션 시각화 구현 등
-* [![Yezun Chung](https://img.shields.io/badge/-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%20Yezun%20Chung-brightgreen)](https://github.com/Chungyezun)
+* [![Yezun Chung](https://img.shields.io/badge/-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%20Yezun%20Chung-brightgreen)](https://github.com/Chungyezun)</br>
     데이터 전처리 및 모델링 등
-* [![Dongyeon Kim](https://img.shields.io/badge/-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%20Dongyeon%20Kim-orange)](https://github.com/dongyeon22)
+* [![Dongyeon Kim](https://img.shields.io/badge/-%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%20Dongyeon%20Kim-orange)](https://github.com/dongyeon22)</br>
     데이터 생성 구현 등
