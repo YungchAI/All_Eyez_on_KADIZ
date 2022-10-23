@@ -36,8 +36,8 @@ Ax^2+By^2+Cx+Dy+Exy+F = 0
     이때 loss funtion은 MSE, optimizer는 Adam을 사용했습니다.
 
  ### 6. Results
+ <span style="color:blue; font-weight:bold;">파란색: 실제 항적 경로</span>&emsp;&emsp;<span style="color:orange; font-weight:bold;">주황색: 예측한 항적 경로</span>
  ![animation](https://user-images.githubusercontent.com/42788336/197400667-9e9605f1-a56a-4836-b17f-24f73e055317.gif)
-<span style="color:blue; font-weight:bold;">파란색: 실제 항적 경로</span>&emsp;&emsp;<span style="color:orange; font-weight:bold;">주황색: 예측한 항적 경로</span>
 
  ### 7. References 📚
  [Liu, Yulin, and Mark Hansen. "Predicting aircraft trajectories: a deep generative convolutional recurrent neural networks approach." arXiv preprint arXiv:1812.11670 (2018).](https://arxiv.org/abs/1812.11670)
