@@ -25,6 +25,7 @@
         <img width="419" alt="route" src="https://user-images.githubusercontent.com/42788336/197400385-ed5f8d0a-b746-4e7c-a0b6-54b27f72700e.png">
     </p>
     따라서 아래와 같은 타원의 방정식(회전까지 고려)과 기호 수학 라이브러리인 Sympy를 이용하여 KADIZ 침입 항적 데이터셋을 생성했습니다. 이때 항적 데이터셋은 위도와 경도로 이루어진 시계열 데이터입니다.
+
 ```math
 Ax^2+By^2+Cx+Dy+Exy+F = 0
 ```
