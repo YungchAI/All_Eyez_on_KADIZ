@@ -39,6 +39,7 @@ Ax^2+By^2+Cx+Dy+Exy+F = 0
 색상 | 파란색 | 주황색
 --- | --- | ---
 의미 | `실제 항적 경로` | `예상한 항적 경로`
+
 ![animation](https://user-images.githubusercontent.com/42788336/197400667-9e9605f1-a56a-4836-b17f-24f73e055317.gif)
 
  ### 7. References 📚
